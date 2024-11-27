@@ -66,7 +66,7 @@ class Apple {
 
 // Create Apples (Reduced Number)
 const apples = [];
-const maxApples = 5; // Fewer apples for a simpler setup
+const maxApples = 25; // Fewer apples for a simpler setup
 for (let i = 0; i < maxApples; i++) {
   const size = 50;
   const x = Math.random() * (canvas.width - size);
